@@ -50,6 +50,7 @@
 
 .about-me-content p{
   font-size: 1.1rem;
+  margin-bottom: 15px;
 }
 
 .about-me-content h3 {
@@ -71,6 +72,7 @@
     position: absolute;
     top: 50%;
     left: 0;
+    opacity: 0.7;
     background: var(--h3);
 }
 
