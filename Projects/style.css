@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --background: #151323;
+  --background-box: #1D1A2F;
+  --background-box-border: #23213b;
+  --h1: #C77DFF;
+  --h2: #9D4EDD;
+  --h3: #7B2CBF;
+  --button-background: #460B79;
+  --white: #ffffff;
+
+  --width-mobile: 375px;
+  --width-tablet: 768px;
+  --width-desktop: 1024px;
+}
+
+.projects-box {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.project-card {
+  width: 100%;
+  margin: 2rem;
+  padding: 4rem;
+  background-color: var(--background-box);
+  border-radius: 20px;
+  border: 2px solid var(--background-box-border);
+}
+
+.card-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.card-content {
+  width: 40%;
+}
+
+.card-img {
+  position: relative;
+  width: 60%;
+}
+
+.card-img img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 7.5px;
+}
+
+.images-direction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header h2 {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-header span {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--h2);
+}
+
+.card-text {
+  margin-top: 25px;
+}
