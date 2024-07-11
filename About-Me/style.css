@@ -122,6 +122,7 @@
     background-color: var(--background-box);
     /* border: black; */
     transition: 0.2s;
+    min-width: 140px;
 }
 
 .language-box:hover {
@@ -137,4 +138,24 @@
 .language-box span {
     font-size: 1.2rem;
     color: var(--white);
+}
+
+/* Responsive Tablet */
+@media screen and (max-width: 768px) {
+    .about-me { margin-top: 100px; height: 100%; }
+    .about-me-row { flex-direction: column; gap: 50px;}
+    .about-me-content { width: 100%; }
+    .about-me-content h1 { white-space: wrap !important; }
+    .about-me-photo { width: 60%; }
+
+    .skillset { height: 100%; }
+    .skillset h1 { white-space: wrap !important; }
+    .container-languages { width: 100%; }
+
+}
+  
+  
+  /* Responsive Mobile */
+@media screen and (max-width: 375px) {
+    
 }
