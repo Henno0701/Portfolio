@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Henno Passchier">
-    <meta name="description" content="I have completed several projects during my studies, and here are some that I would like to showcase. Explore my work and see the skills and creativity I bring to each project.">
-    <meta name ="keywords" content="Henno Passchier Projects, Henno Passchier, hennopasschier.me, Projects, Passchier">
+    <meta name="description"
+        content="I have completed several projects during my studies, and here are some that I would like to showcase. Explore my work and see the skills and creativity I bring to each project.">
+    <meta name="keywords" content="Henno Passchier Projects, Henno Passchier, hennopasschier.me, Projects, Passchier">
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="../default.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
     <script src="/default.js"></script>
 
     <title>Henno Passchier - Projects</title>
 </head>
+
 <body>
     <div class="navbar" id="navbar">
         <div class="navbar-items">
@@ -25,13 +32,14 @@
             </a>
             <a href="/Portfolio/About-Me/" class="navbar-link animate__animated animate__flipInX animate__delay-1s">
                 <i class="fa-regular fa-user"></i>
-                <span class="hover-underline-animation">About me</span>
+                <span class="hover-underline-animation">About me & Skillset</span>
             </a>
             <a href="/Portfolio/Projects/" class="navbar-link animate__animated animate__flipInX animate__delay-1s">
                 <i class="fa-regular fa-images"></i>
                 <span class="hover-underline-animation">Projects</span>
             </a>
-            <a href="/Portfolio/Resume/CV-Henno-Passchier.pdf" class="navbar-link animate__animated animate__flipInX animate__delay-1s" target="_blank">
+            <a href="/Portfolio/Resume/CV-Henno-Passchier.pdf"
+                class="navbar-link animate__animated animate__flipInX animate__delay-1s" target="_blank">
                 <i class="fa-regular fa-file-lines"></i>
                 <span class="hover-underline-animation">Resume</span>
             </a>
@@ -42,6 +50,41 @@
         <section name="projects" class="projects-box">
             <div class="project-card">
                 <div class="card-box">
+                    <div class="card-img" style="width: 55%;">
+                        <div class="images-direction">
+                            <video width="100%" controls style="border-radius: 7.5px;">
+                                <source src="../videos/Demo.mp4" type="video/mp4" alt="Demostration application">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h2>Lavas</h2>
+                            <span>National Institute of Geophysics and Volcanology (INGV)</span>
+                        </div>
+
+                        <div class="card-text">
+                            <p>For our Minor in Cross-Platform Development, we developed a Flutter application designed
+                                to work seamlessly on any device.
+                                The app features a timeline where users can create posts, similar to a forum.
+                                Each post can include additional data such as location (displayed on an interactive
+                                map), filters, files, and more.
+                                <br><br>
+                                As an extra feature, we implemented a selection tool on the map that allows users to
+                                choose specific latitude and longitude coordinates, filtering posts to show only those
+                                from the selected area.
+                                This enhances usability and makes the app more interactive and location-aware.
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-box">
                     <div class="card-content">
                         <div class="card-header">
                             <h2>Charging Station Problem</h2>
@@ -49,14 +92,24 @@
                         </div>
 
                         <div class="card-text">
-                            <p>During my last project course, we had to solve a problem for the company Schuberg Philis. They have about 50 charging stations and 120 electric cars that need charging. At the time, they were using Slack to communicate about which charging station to use, resulting in very low efficiency. Our group was tasked with finding a solution to this problem.<br><br> We decided to implement a priority scheduling system. Users can submit a request with a priority level, and one hour before the requested time slot, all requests are assigned to a charging station. If all the stations are full, the request is moved to the next available time slot.</p>
+                            <p>During my last project course, we had to solve a problem for the company Schuberg Philis.
+                                They have about 50 charging stations and 120 electric cars that need charging. At the
+                                time, they were using Slack to communicate about which charging station to use,
+                                resulting in very low efficiency. Our group was tasked with finding a solution to this
+                                problem.<br><br> We decided to implement a priority scheduling system. Users can submit
+                                a request with a priority level, and one hour before the requested time slot, all
+                                requests are assigned to a charging station. If all the stations are full, the request
+                                is moved to the next available time slot.</p>
                         </div>
                     </div>
                     <div class="card-img">
                         <div class="images-direction">
-                            <img src="../images/CSP_1.png" style="border-radius: 25px;" width="200" alt="Charging Station Problem">
-                            <img src="../images/CSP_2.png" style="border-radius: 25px;" width="200" alt="Charging Station Problem">
-                            <img src="../images/CSP_3.png" style="border-radius: 25px;" width="200" alt="Charging Station Problem">
+                            <img src="../images/CSP_1.png" style="border-radius: 25px;" width="25%"
+                                alt="Charging Station Problem">
+                            <img src="../images/CSP_2.png" style="border-radius: 25px;" width="25%"
+                                alt="Charging Station Problem">
+                            <img src="../images/CSP_3.png" style="border-radius: 25px;" width="25%"
+                                alt="Charging Station Problem">
                         </div>
                     </div>
                 </div>
@@ -76,14 +129,17 @@
                         </div>
 
                         <div class="card-text">
-                            <p>Cavero wanted an application to track their events, see who is attending, event dates, and requirements. My team and I created a user-friendly calendar displaying all events. Colleagues can join an event by clicking on it. The calendar also allows viewing events far in advance, helping with early planning.</p>
+                            <p>Cavero wanted an application to track their events, see who is attending, event dates,
+                                and requirements. My team and I created a user-friendly calendar displaying all events.
+                                Colleagues can join an event by clicking on it. The calendar also allows viewing events
+                                far in advance, helping with early planning.</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
-        
+
     </main>
 
     <div class="footer">
@@ -91,6 +147,7 @@
             <p>© 2024 Henno Passchier. All rights reserved.</p>
         </div>
     </div>
-    
+
 </body>
+
 </html>
